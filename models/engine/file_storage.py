@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""file storage"""
+"""file storage class"""
 import json
 import sys
 from models.base_model import BaseModel

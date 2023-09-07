@@ -1,12 +1,15 @@
 #!/usr/bin/python3
-"""City class"""
+"""Module that creates city class."""
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    name = ""
-    state_id = ""
-    """initialise class"""
+    """Represent a city.
 
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+    Attributes:
+        state_id (str): State id.
+        name (str): Name of city.
+    """
+
+    state_id = ""
+    name = ""

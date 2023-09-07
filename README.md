@@ -1,57 +1,48 @@
-# alu-AirBnB Starter Pack
+The AirBnB clone project aims to deploy a simplified version of the AirBnB website on a server. Here is a summary of the project steps:
 
-## Project Desciption & Summary :memo:
+The Console:
 
-This is a clone of the AirBnb website. This project would only be a simple server copy of the real AirBnb website. However, the cloned website would implement the client side (front-end), and the server side (APIs, database, etc.)
+Create the data model.
+Develop a command interpreter to manipulate data via a console.
+Implement storage and persistence of objects using a JSON file.
+Web Static:
 
-This current project can only be implemented on the console or command interpreter. 
+Learn HTML/CSS.
+Create HTML templates for the application.
+Make the static HTML files dynamic by integrating data from files or databases.
+MySQL Storage:
 
-## The Command Interpreter :computer:
+Replace the file storage system with a database storage solution.
+Map models to database tables using an ORM (Object-Relational Mapping).
+Web Framework - Templating:
 
-The console is just like Shell but only limited to specific-use cases - to execute commands on the objects of the projects. The commands include: 
+Build a web server in Python using a web framework.
+Render dynamic HTML templates by fetching data from files or databases.
+RESTful API:
 
-* Create a new object (ex: a new User or a new Place)
-* Retrieve an object from a file, a database etc… 
-* Do operations on objects (count, compute stats, etc…) 
-* Update attributes of an object 
-* Destroy an object 
-* Exit interpreter
+Create a JSON web interface (API) to expose and manipulate stored objects.
+Implement CRUD operations (Create, Read, Update, Delete) on objects via the API.
+Web Dynamic:
 
-## Starting the Interpreter :rocket:
+Learn JQuery.
+Load objects dynamically from the client-side using the RESTful API.
 
-To start the interpreter, run:
+The command interpreter in the AirBnB clone project serves as a tool to manipulate data without a visual interface, similar to a Shell. It allows you to interact with the application's functionality and perform various actions. Here's an overview of how to start and use the command interpreter, along with some examples:
 
-```python
-$ ./console.py
-```
+How to start the command interpreter
 
+Open the terminal
+navigate to the directory where the project files are located
+run the "console.py" file to start the command interpreter.
 
-## Using The Interpreter :repeat:
+How to use the command interpreter
 
-| Command | Action | Output | 
-|---------- |:-------------: |------: | 
-| `help` | Displays documented commands | `(hbnb) help` | 
-| `help create (any command)` | Create an object of a given class | `(hbnb) help create` |
-| `quit` | Ends the command interpreter | `(hbnb) quit` |
-| `EOF` | Exit the program | `(hbnb) EOF` |
-| `all` | Show all objects of a given class | `(hbnb) all <class>` |
-| `show` | Show an object of a given class | `(hbnb) show <class> <id>` |
-| `update` | Edit an object of a given class | `(hbnb) update <class> <id> <attribute name> <"attribute value">` |
-| `destroy` | Destroy an object of a given class | `(hbnb) destroy <class> <id>` | 
+Once the command interpreter is running, you can enter commands and interact with the application. The interpreter understands a set of predefined commands, and you can use them to manipulate data and perform actions within the application
+here are some examples :
 
-## Tests :artificial_satellite:
----
-
-To run unittests on the codebases, run: 
-
-```python
-$ python3 unittest -m discover tests
-```
-
-## Authors :man_technologist:
----
-
-Kindly find the authors of this projects below: 
-
-* Izzedin Serge Ishimwe <<i.ishimwe@alustudent.com>>
-* Chibuzor Nino Nwachukwu <<c.nwachukwu@alustudent.com>>
+1. creating a new User instance
+   (command prompt) create User
+2. display all instance of a specific class
+   (command prompt) all User (user is replaced by the appropriate class name)
+3. display all instances across all classes
+   (command prompt) all
